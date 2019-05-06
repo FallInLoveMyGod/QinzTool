@@ -1,0 +1,27 @@
+{
+  "name": "QinzTool",
+  "version": "0.1.0",
+  "summary": "A short description of QinzTool.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/FallInLoveMyGod/QinzTool",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "FallInLoveMyGod": "1174465110@qq.com"
+  },
+  "source": {
+    "git": "https://github.com/FallInLoveMyGod/QinzTool.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "QinzTool/Classes/**/*",
+  "resource_bundles": {
+    "QinzTool": [
+      "QinzTool/Assets/*"
+    ]
+  }
+}

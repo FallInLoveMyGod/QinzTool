@@ -1,0 +1,16 @@
+PODS:
+  - QinzTool (0.1.0)
+
+DEPENDENCIES:
+  - QinzTool (from `../`)
+
+EXTERNAL SOURCES:
+  QinzTool:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  QinzTool: edd1c7eb3ce979d270b198fb77fe481ebe40e44f
+
+PODFILE CHECKSUM: 075e373b635f700e8d79302ec6a6deeb67945e3f
+
+COCOAPODS: 1.5.3

@@ -1,0 +1,6 @@
+framework module QinzTool {
+  umbrella header "QinzTool-umbrella.h"
+
+  export *
+  module * { export * }
+}

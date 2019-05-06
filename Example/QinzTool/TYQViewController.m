@@ -7,8 +7,8 @@
 //
 
 #import "TYQViewController.h"
-
-@interface TYQViewController ()
+#import <QinzTool/FJFloatingView.h>
+@interface TYQViewController () <FJFloatingViewDelegate>
 
 @end
 
@@ -17,13 +17,20 @@
 - (void)viewDidLoad
 {
     [super viewDidLoad];
-	// Do any additional setup after loading the view, typically from a nib.
+    FJFloatingView *floatView = [[FJFloatingView alloc] initWithFrame:CGRectMake(100, 100, 60, 60)];
+    floatView.delegate = self;
+    [self.view addSubview:floatView];
 }
 
 - (void)didReceiveMemoryWarning
 {
     [super didReceiveMemoryWarning];
     // Dispose of any resources that can be recreated.
+}
+
+#pragma mark - FJFloatingViewDelegate
+- (void)floatingViewClick {
+    NSLog(@"click me");
 }
 
 @end
