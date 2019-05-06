@@ -1,0 +1,13 @@
+use_frameworks!
+
+platform :ios, '8.0'
+
+target 'QinzTool_Example' do
+  pod 'QinzTool', :path => '../'
+
+  target 'QinzTool_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
