@@ -49,31 +49,31 @@
 
 /* Begin PBXFileReference section */
 		033F3F3E794D983AA708A7BE8D0D3FAD /* Pods-QinzTool_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-QinzTool_Example.release.xcconfig"; sourceTree = "<group>"; };
-		039932C76734868985787295CD623CEC /* QinzTool.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; path = QinzTool.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		039932C76734868985787295CD623CEC /* QinzTool.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; path = QinzTool.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		0492AD4196F1C96D8A058C03D3D1A756 /* Pods-QinzTool_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-QinzTool_Example-dummy.m"; sourceTree = "<group>"; };
-		0952F4F1807627FC17FF08AA523393C4 /* Pods_QinzTool_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_QinzTool_Example.framework; path = "Pods-QinzTool_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		0952F4F1807627FC17FF08AA523393C4 /* Pods_QinzTool_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_QinzTool_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		09717CE89660B859998C8528B8E1C809 /* Pods-QinzTool_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-QinzTool_Example-frameworks.sh"; sourceTree = "<group>"; };
 		09994F6F6C931532B5EBC9F24ED00ECD /* Pods-QinzTool_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-QinzTool_Example-umbrella.h"; sourceTree = "<group>"; };
 		1DEBAAE889CF0DD48CABE845770332D4 /* Pods-QinzTool_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-QinzTool_Example-acknowledgements.plist"; sourceTree = "<group>"; };
 		276874AF53FEDF33270A896FA5AC67F9 /* QinzTool-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "QinzTool-prefix.pch"; sourceTree = "<group>"; };
-		27E5545A2EB4838C4DD88AEE027D8C02 /* Pods_QinzTool_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_QinzTool_Tests.framework; path = "Pods-QinzTool_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		27E5545A2EB4838C4DD88AEE027D8C02 /* Pods_QinzTool_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_QinzTool_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		3C1907E3CE67FA3F6B58E6BE80A3AE7C /* Pods-QinzTool_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-QinzTool_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		3CD32F53E2480B1AC569F4E89B905B5D /* QinzTool.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = QinzTool.xcconfig; sourceTree = "<group>"; };
-		46398BC7882639B87ECBBF4EA00C594B /* QinzTool.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; name = QinzTool.bundle; path = "QinzTool-QinzTool.bundle"; sourceTree = BUILT_PRODUCTS_DIR; };
+		46398BC7882639B87ECBBF4EA00C594B /* QinzTool.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = QinzTool.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
 		481A2056F1F11D2E73BFA3CCC2865F71 /* Pods-QinzTool_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-QinzTool_Tests-umbrella.h"; sourceTree = "<group>"; };
 		4F27B0272F9227E109B882FECB0277A0 /* ReplaceMe.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ReplaceMe.m; path = QinzTool/Classes/ReplaceMe.m; sourceTree = "<group>"; };
-		50F7D681A45B9A329C9C28FF2577884C /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		50F7D681A45B9A329C9C28FF2577884C /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		60DD9E06C6BFBF3DAEC2A62B10019810 /* Pods-QinzTool_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-QinzTool_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
 		6A8F496A4EC138F145AAEE64928FC3E4 /* zb_bg.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = zb_bg.png; path = QinzTool/Assets/zb_bg.png; sourceTree = "<group>"; };
 		6F84D61197EB9C196BF5BE844264F640 /* Pods-QinzTool_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-QinzTool_Tests-frameworks.sh"; sourceTree = "<group>"; };
-		74DBA1207EDFF6C4774B58FDA46894D4 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		74DBA1207EDFF6C4774B58FDA46894D4 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
 		79D41D6D9D07AE26D3766A1DC1210B4C /* Pods-QinzTool_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-QinzTool_Tests-dummy.m"; sourceTree = "<group>"; };
 		7D101441D7C93BCEFDC0C9D20D1FF818 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		7F7DF60F03B8F4B3A0391C7CA23A438F /* Pods-QinzTool_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-QinzTool_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
 		88F8AB88F24553DD1E8E27A9C7D8D93E /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		907F5F2346382A5051788D16AE49FBC8 /* Pods-QinzTool_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-QinzTool_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		917F44E8DAFFAC3F8BD8E7AA3D6AE45E /* FJFloatingView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = FJFloatingView.h; sourceTree = "<group>"; };
-		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		A877C4C60FC2B67B5C42B4D71ED7691D /* QinzTool-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "QinzTool-dummy.m"; sourceTree = "<group>"; };
 		BA70E2D560192475156ECB157036CB3C /* QinzTool-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "QinzTool-umbrella.h"; sourceTree = "<group>"; };
 		BD82DF4D5984407C5BAAA6109CDE4852 /* Pods-QinzTool_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-QinzTool_Tests.debug.xcconfig"; sourceTree = "<group>"; };
@@ -86,7 +86,7 @@
 		DB1A389CCE6B91838CF3ED4C273C1F9D /* Pods-QinzTool_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-QinzTool_Tests.modulemap"; sourceTree = "<group>"; };
 		DB34B0FD9840C0050BB91D5FA9DF9A78 /* ResourceBundle-QinzTool-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "ResourceBundle-QinzTool-Info.plist"; sourceTree = "<group>"; };
 		E10329F24AF6BABEF8FFC6DC9EA81B43 /* FJFloatingView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = FJFloatingView.m; sourceTree = "<group>"; };
-		E2A73879661136AD7E2FC330927CBF27 /* QinzTool.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = QinzTool.framework; path = QinzTool.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E2A73879661136AD7E2FC330927CBF27 /* QinzTool.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = QinzTool.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		EC7E0F721CCE0FCE0DB5BA9D5CAB999A /* Pods-QinzTool_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-QinzTool_Tests-resources.sh"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -385,12 +385,18 @@
 			attributes = {
 				LastSwiftUpdateCheck = 0930;
 				LastUpgradeCheck = 0930;
+				TargetAttributes = {
+					0368529C2FAD6BF5EEE825D36AC2310C = {
+						DevelopmentTeam = 3LZSCAW46M;
+					};
+				};
 			};
 			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 			);
 			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
@@ -566,6 +572,7 @@
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/QinzTool";
+				DEVELOPMENT_TEAM = 3LZSCAW46M;
 				INFOPLIST_FILE = "Target Support Files/QinzTool/ResourceBundle-QinzTool-Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				PRODUCT_NAME = QinzTool;
@@ -662,8 +669,7 @@
 				MTL_FAST_MATH = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				STRIP_INSTALLED_PRODUCT = NO;
-				SWIFT_COMPILATION_MODE = wholemodule;
-				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
 				SWIFT_VERSION = 4.2;
 				SYMROOT = "${SRCROOT}/../build";
 			};
@@ -842,6 +848,7 @@
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/QinzTool";
+				DEVELOPMENT_TEAM = 3LZSCAW46M;
 				INFOPLIST_FILE = "Target Support Files/QinzTool/ResourceBundle-QinzTool-Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				PRODUCT_NAME = QinzTool;

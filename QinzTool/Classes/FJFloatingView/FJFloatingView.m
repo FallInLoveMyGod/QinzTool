@@ -145,7 +145,7 @@
         //参考路径 #https://www.jianshu.com/p/055906d5ae27
         NSString *path = [cBundle pathForResource:@"zb_bg.png" ofType:nil inDirectory:[NSString stringWithFormat:@"%@.bundle",bundleName]];
 //        NSString *path = [cBundle pathForResource:@"zb_bg.png" ofType:nil inDirectory:@"QinzTool.bundle"];
-        NSString *path2 = [[NSBundle mainBundle] pathForResource:@"zb_bg.png" ofType:nil];
+//        NSString *path2 = [[NSBundle mainBundle] pathForResource:@"zb_bg.png" ofType:nil];
         _iconImageView.image = [UIImage imageWithContentsOfFile:path];
 //        _iconImageView.image = [UIImage imageNamed:@"zb_bg.png"];
         
