@@ -7,309 +7,322 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		36A0F7E1DBF6B334862C19CF860A0068 /* zb_bg.png in Resources */ = {isa = PBXBuildFile; fileRef = 6A8F496A4EC138F145AAEE64928FC3E4 /* zb_bg.png */; };
-		3D65258B962D3076EBF654895B7BACA2 /* QinzTool-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = BA70E2D560192475156ECB157036CB3C /* QinzTool-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		41C2FF47BF54F7542102ECD3533E8B24 /* QinzTool-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = A877C4C60FC2B67B5C42B4D71ED7691D /* QinzTool-dummy.m */; };
-		61CF48AD38B3B31F7088A842C29F8AB1 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D6DFF15000AFE2A371BF499E7AFDA808 /* Foundation.framework */; };
-		69D748E494309B9663EECFA9E4D2559E /* Pods-QinzTool_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 481A2056F1F11D2E73BFA3CCC2865F71 /* Pods-QinzTool_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		6AC20EB20C6830228C2C118E4C2B3F11 /* Pods-QinzTool_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 0492AD4196F1C96D8A058C03D3D1A756 /* Pods-QinzTool_Example-dummy.m */; };
-		A9FDE01CF68CB67E9150CD815400C23E /* FJFloatingView.h in Headers */ = {isa = PBXBuildFile; fileRef = 917F44E8DAFFAC3F8BD8E7AA3D6AE45E /* FJFloatingView.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		C209647DFEA01DBD631F45BC99AF9A5F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D6DFF15000AFE2A371BF499E7AFDA808 /* Foundation.framework */; };
-		D175603DDEBB9CBC9EFC564FE3DDABDE /* Pods-QinzTool_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 79D41D6D9D07AE26D3766A1DC1210B4C /* Pods-QinzTool_Tests-dummy.m */; };
-		D362FD7D9CB21C88C758E2EDC907C9D7 /* FJFloatingView.m in Sources */ = {isa = PBXBuildFile; fileRef = E10329F24AF6BABEF8FFC6DC9EA81B43 /* FJFloatingView.m */; };
-		D81C00FC449904387E646FE358E627CF /* ReplaceMe.m in Sources */ = {isa = PBXBuildFile; fileRef = 4F27B0272F9227E109B882FECB0277A0 /* ReplaceMe.m */; };
-		EE4A546778DDBF0754A454E88A391101 /* Pods-QinzTool_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 09994F6F6C931532B5EBC9F24ED00ECD /* Pods-QinzTool_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		F5F1B81837593A3923837D86958E5467 /* QinzTool.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 46398BC7882639B87ECBBF4EA00C594B /* QinzTool.bundle */; };
-		FDCF7C367568F1A7552579EF20CE5972 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D6DFF15000AFE2A371BF499E7AFDA808 /* Foundation.framework */; };
+		0DF5C19409B5C503408D9150D35AADC0 /* ReplaceMe.m in Sources */ = {isa = PBXBuildFile; fileRef = B22B468F3CF71BD6A91BBD58CCF2F38F /* ReplaceMe.m */; };
+		1B8E3D2D5FEE090F207D14A93DDE74B6 /* Pods-QinzTool_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 8C60D07501B3F22BC6FF41A02885815F /* Pods-QinzTool_Tests-dummy.m */; };
+		24A1E0C5CFD433681F712047359056C3 /* QinzTool-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 240BE6797CD97CF05B2E4E1B6B5F3C75 /* QinzTool-dummy.m */; };
+		25F6B26AFC272A7C5F6009EBFFA98D55 /* QinzTool.bundle in Resources */ = {isa = PBXBuildFile; fileRef = AC35F59368B61A0666D38B7551E4E930 /* QinzTool.bundle */; };
+		45086D13E80BDFDC6FC03EDAE19F641D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
+		5D25A7ABAFC92C29F72BC6FE5B4F7D50 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
+		5F32B9981D92510CF007DD7F10B94481 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
+		6AAC6EE46AAED46E91661120F1787C57 /* Pods-QinzTool_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 0EDB9F5C488E9D41D3FF436665F0F604 /* Pods-QinzTool_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		769C3DEA502CFB2FA3EAA80BBC097086 /* FJFloatingView.h in Headers */ = {isa = PBXBuildFile; fileRef = CFC7D062AA6D226990F8A4E589CAEB08 /* FJFloatingView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7E1C884C584681B169E1710FEE8618DC /* Pods-QinzTool_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 71A876308960982C0C374CFA6C80A2D6 /* Pods-QinzTool_Example-dummy.m */; };
+		ABFD288F86FE91160459D1D82ECEE5A8 /* Pods-QinzTool_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 24CC45696D74AE5176A6D20B01B605EA /* Pods-QinzTool_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		BF21746C724D9D6A2EFE07FA297C11BE /* FJFloatingView.m in Sources */ = {isa = PBXBuildFile; fileRef = FB37F2A23E349BCEB6D2CB6F88F617CE /* FJFloatingView.m */; };
+		CCDF343CC0110D2EEF24DAD52FD844B6 /* zb_bg.png in Resources */ = {isa = PBXBuildFile; fileRef = A00C0B2EC2A4553F9F4401FDBAE761A2 /* zb_bg.png */; };
+		EEB877B2644A7D2CECD8C72EB3C7FFF5 /* QinzTool-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 11E30EECB4C7AA672CEAE220ABEF3D19 /* QinzTool-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		1DB56384F6729ED2776FC586755C0DB1 /* PBXContainerItemProxy */ = {
+		1A5D26EDE8ED2514454225BF7D5E9D70 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 1E45B1949F263417B137069ED61340AE;
+			remoteGlobalIDString = 209104EFCF29EFB366013CBDBFE61890;
+			remoteInfo = "QinzTool-QinzTool";
+		};
+		B7BBFEBF55F6C40707056161BB75C0CB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F51E166E7E8F5725F95AC46676D230A3;
 			remoteInfo = "Pods-QinzTool_Example";
 		};
-		720EE4DEE7E5C7C73784818965FDE637 /* PBXContainerItemProxy */ = {
+		DB144EE0BCC025886DA9CDEABE5112B5 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = A4CC85DCA5DB054CC6B19BA2EF9290DF;
+			remoteGlobalIDString = B8580FC9149802D8AD992DD4A79DBDF0;
 			remoteInfo = QinzTool;
-		};
-		D32B04447D1E8194FDB50054C52DD9F3 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 0368529C2FAD6BF5EEE825D36AC2310C;
-			remoteInfo = "QinzTool-QinzTool";
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		033F3F3E794D983AA708A7BE8D0D3FAD /* Pods-QinzTool_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-QinzTool_Example.release.xcconfig"; sourceTree = "<group>"; };
-		039932C76734868985787295CD623CEC /* QinzTool.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; path = QinzTool.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		0492AD4196F1C96D8A058C03D3D1A756 /* Pods-QinzTool_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-QinzTool_Example-dummy.m"; sourceTree = "<group>"; };
-		0952F4F1807627FC17FF08AA523393C4 /* Pods_QinzTool_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_QinzTool_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		09717CE89660B859998C8528B8E1C809 /* Pods-QinzTool_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-QinzTool_Example-frameworks.sh"; sourceTree = "<group>"; };
-		09994F6F6C931532B5EBC9F24ED00ECD /* Pods-QinzTool_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-QinzTool_Example-umbrella.h"; sourceTree = "<group>"; };
-		1DEBAAE889CF0DD48CABE845770332D4 /* Pods-QinzTool_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-QinzTool_Example-acknowledgements.plist"; sourceTree = "<group>"; };
-		276874AF53FEDF33270A896FA5AC67F9 /* QinzTool-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "QinzTool-prefix.pch"; sourceTree = "<group>"; };
-		27E5545A2EB4838C4DD88AEE027D8C02 /* Pods_QinzTool_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_QinzTool_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		3C1907E3CE67FA3F6B58E6BE80A3AE7C /* Pods-QinzTool_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-QinzTool_Example.debug.xcconfig"; sourceTree = "<group>"; };
-		3CD32F53E2480B1AC569F4E89B905B5D /* QinzTool.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = QinzTool.xcconfig; sourceTree = "<group>"; };
-		46398BC7882639B87ECBBF4EA00C594B /* QinzTool.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = QinzTool.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
-		481A2056F1F11D2E73BFA3CCC2865F71 /* Pods-QinzTool_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-QinzTool_Tests-umbrella.h"; sourceTree = "<group>"; };
-		4F27B0272F9227E109B882FECB0277A0 /* ReplaceMe.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ReplaceMe.m; path = QinzTool/Classes/ReplaceMe.m; sourceTree = "<group>"; };
-		50F7D681A45B9A329C9C28FF2577884C /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
-		60DD9E06C6BFBF3DAEC2A62B10019810 /* Pods-QinzTool_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-QinzTool_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
-		6A8F496A4EC138F145AAEE64928FC3E4 /* zb_bg.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = zb_bg.png; path = QinzTool/Assets/zb_bg.png; sourceTree = "<group>"; };
-		6F84D61197EB9C196BF5BE844264F640 /* Pods-QinzTool_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-QinzTool_Tests-frameworks.sh"; sourceTree = "<group>"; };
-		74DBA1207EDFF6C4774B58FDA46894D4 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
-		79D41D6D9D07AE26D3766A1DC1210B4C /* Pods-QinzTool_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-QinzTool_Tests-dummy.m"; sourceTree = "<group>"; };
-		7D101441D7C93BCEFDC0C9D20D1FF818 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		7F7DF60F03B8F4B3A0391C7CA23A438F /* Pods-QinzTool_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-QinzTool_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
-		88F8AB88F24553DD1E8E27A9C7D8D93E /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		907F5F2346382A5051788D16AE49FBC8 /* Pods-QinzTool_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-QinzTool_Tests.release.xcconfig"; sourceTree = "<group>"; };
-		917F44E8DAFFAC3F8BD8E7AA3D6AE45E /* FJFloatingView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = FJFloatingView.h; sourceTree = "<group>"; };
-		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		A877C4C60FC2B67B5C42B4D71ED7691D /* QinzTool-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "QinzTool-dummy.m"; sourceTree = "<group>"; };
-		BA70E2D560192475156ECB157036CB3C /* QinzTool-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "QinzTool-umbrella.h"; sourceTree = "<group>"; };
-		BD82DF4D5984407C5BAAA6109CDE4852 /* Pods-QinzTool_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-QinzTool_Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		C1C8BDDA31E1A6D2C60586FD34E57729 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		C585811AA2BEBB92F516A0992AE619FF /* Pods-QinzTool_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-QinzTool_Example-resources.sh"; sourceTree = "<group>"; };
-		CF3953516FAC478C726CCFFE069D0565 /* QinzTool.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = QinzTool.modulemap; sourceTree = "<group>"; };
-		CF8403A822F036DCF76A140AC4FB6E95 /* Pods-QinzTool_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-QinzTool_Example.modulemap"; sourceTree = "<group>"; };
-		D2B2AAA58FFE2B8F33FC4562C7C96463 /* Pods-QinzTool_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-QinzTool_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
-		D6DFF15000AFE2A371BF499E7AFDA808 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		DB1A389CCE6B91838CF3ED4C273C1F9D /* Pods-QinzTool_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-QinzTool_Tests.modulemap"; sourceTree = "<group>"; };
-		DB34B0FD9840C0050BB91D5FA9DF9A78 /* ResourceBundle-QinzTool-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "ResourceBundle-QinzTool-Info.plist"; sourceTree = "<group>"; };
-		E10329F24AF6BABEF8FFC6DC9EA81B43 /* FJFloatingView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = FJFloatingView.m; sourceTree = "<group>"; };
-		E2A73879661136AD7E2FC330927CBF27 /* QinzTool.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = QinzTool.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		EC7E0F721CCE0FCE0DB5BA9D5CAB999A /* Pods-QinzTool_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-QinzTool_Tests-resources.sh"; sourceTree = "<group>"; };
+		0EDB9F5C488E9D41D3FF436665F0F604 /* Pods-QinzTool_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-QinzTool_Example-umbrella.h"; sourceTree = "<group>"; };
+		11E30EECB4C7AA672CEAE220ABEF3D19 /* QinzTool-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "QinzTool-umbrella.h"; sourceTree = "<group>"; };
+		1A12A204A849AB0E7A610A3C9BE8A8F7 /* Pods-QinzTool_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-QinzTool_Tests.modulemap"; sourceTree = "<group>"; };
+		240BE6797CD97CF05B2E4E1B6B5F3C75 /* QinzTool-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "QinzTool-dummy.m"; sourceTree = "<group>"; };
+		24CC45696D74AE5176A6D20B01B605EA /* Pods-QinzTool_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-QinzTool_Tests-umbrella.h"; sourceTree = "<group>"; };
+		3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		334D0165D17F3471698C55388578E606 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		3A94AC897402D56DA7A119B795AE302B /* Pods-QinzTool_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-QinzTool_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		3B2BEAA7424747FF09AFAC073DC2E5EE /* Pods_QinzTool_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_QinzTool_Example.framework; path = "Pods-QinzTool_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3DC4573F560D3EBDBA1317429236CF9E /* QinzTool.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = QinzTool.modulemap; sourceTree = "<group>"; };
+		4250981E4A72FC609498021429F17BAC /* Pods-QinzTool_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-QinzTool_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		4861F019E9D9182185FD11930B83806B /* Pods_QinzTool_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_QinzTool_Tests.framework; path = "Pods-QinzTool_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		5B5DF5E54EF3DCAE7ADDCBBB4D6B4F19 /* ResourceBundle-QinzTool-QinzTool-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "ResourceBundle-QinzTool-QinzTool-Info.plist"; sourceTree = "<group>"; };
+		698F0EFEB9E096C18AF7486A66772D2C /* QinzTool.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = QinzTool.framework; path = QinzTool.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		70D9E0D1AFBD57FBCA49CCC8CB59CEF9 /* Pods-QinzTool_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-QinzTool_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		71A876308960982C0C374CFA6C80A2D6 /* Pods-QinzTool_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-QinzTool_Example-dummy.m"; sourceTree = "<group>"; };
+		76A67558F4E60141D919106337F97169 /* Pods-QinzTool_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-QinzTool_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		8C60D07501B3F22BC6FF41A02885815F /* Pods-QinzTool_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-QinzTool_Tests-dummy.m"; sourceTree = "<group>"; };
+		90129B33C8E15E8519E8CF709905AE87 /* QinzTool.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = QinzTool.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		A00C0B2EC2A4553F9F4401FDBAE761A2 /* zb_bg.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = zb_bg.png; path = QinzTool/Assets/zb_bg.png; sourceTree = "<group>"; };
+		A3244542363994B3D0E78B8B77A799AA /* Pods-QinzTool_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-QinzTool_Example-Info.plist"; sourceTree = "<group>"; };
+		A3676678F1051D9A3E2013349684CC5D /* Pods-QinzTool_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-QinzTool_Tests-Info.plist"; sourceTree = "<group>"; };
+		A5035F281B41C4EA98E8AE118FC3E649 /* Pods-QinzTool_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-QinzTool_Example.modulemap"; sourceTree = "<group>"; };
+		AC35F59368B61A0666D38B7551E4E930 /* QinzTool.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; name = QinzTool.bundle; path = "QinzTool-QinzTool.bundle"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B22B468F3CF71BD6A91BBD58CCF2F38F /* ReplaceMe.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ReplaceMe.m; path = QinzTool/Classes/ReplaceMe.m; sourceTree = "<group>"; };
+		C5B39856C03D84F9EB605EC123343F65 /* Pods-QinzTool_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-QinzTool_Example.release.xcconfig"; sourceTree = "<group>"; };
+		C5D1FDF1CF8613BEFCCB535098E7ABEF /* QinzTool-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "QinzTool-Info.plist"; sourceTree = "<group>"; };
+		CAF471A07C5144806878178252DD819A /* Pods-QinzTool_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-QinzTool_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		CE1F5EBCA6353639F962325D37B73BCA /* Pods-QinzTool_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-QinzTool_Example-frameworks.sh"; sourceTree = "<group>"; };
+		CFC7D062AA6D226990F8A4E589CAEB08 /* FJFloatingView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = FJFloatingView.h; sourceTree = "<group>"; };
+		D52546C646105133346B288729BC36A0 /* QinzTool.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = QinzTool.xcconfig; sourceTree = "<group>"; };
+		E09AD755ACC0BF439D75AB9CFE0DD864 /* Pods-QinzTool_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-QinzTool_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		E5E34EF7AED9122D1856B6381538C67C /* Pods-QinzTool_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-QinzTool_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		F45C8D64C47C0950D3D8A619EE3ED274 /* QinzTool-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "QinzTool-prefix.pch"; sourceTree = "<group>"; };
+		F77880A3C5A46FD8CC41B16BFE976684 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		FB37F2A23E349BCEB6D2CB6F88F617CE /* FJFloatingView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = FJFloatingView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		66557C2DDDABCBA34217E2018741984D /* Frameworks */ = {
+		1CC2FCA6AABEFFEF90CBEA483889F949 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C209647DFEA01DBD631F45BC99AF9A5F /* Foundation.framework in Frameworks */,
+				45086D13E80BDFDC6FC03EDAE19F641D /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		83E739B1773AD05255C3B1FDB925E951 /* Frameworks */ = {
+		671C19CB0480B55AE3522FCB28DF8C78 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5D25A7ABAFC92C29F72BC6FE5B4F7D50 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D1F60C8129200AC15B2E3D26EA8C48E7 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		E3D55D4709577B87A4BB6A20CB7759CB /* Frameworks */ = {
+		F832201A8055A39EDDBB8C838CA7D005 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				61CF48AD38B3B31F7088A842C29F8AB1 /* Foundation.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		E6B47F41394AA0E27A7BB012439BF8CC /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				FDCF7C367568F1A7552579EF20CE5972 /* Foundation.framework in Frameworks */,
+				5F32B9981D92510CF007DD7F10B94481 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		06A90710AAD0DBA774380DC7350319DF /* Pod */ = {
+		020ED4D44910475F453D30D100D462F5 /* Pod */ = {
 			isa = PBXGroup;
 			children = (
-				74DBA1207EDFF6C4774B58FDA46894D4 /* LICENSE */,
-				039932C76734868985787295CD623CEC /* QinzTool.podspec */,
-				50F7D681A45B9A329C9C28FF2577884C /* README.md */,
+				F77880A3C5A46FD8CC41B16BFE976684 /* LICENSE */,
+				90129B33C8E15E8519E8CF709905AE87 /* QinzTool.podspec */,
+				334D0165D17F3471698C55388578E606 /* README.md */,
 			);
 			name = Pod;
 			sourceTree = "<group>";
 		};
-		34FCA12B84EC1A28AE770C97FC15C9B3 /* Development Pods */ = {
+		0B4C3B124A7A291564608FB4E3CBEF8C /* FJFloatingView */ = {
 			isa = PBXGroup;
 			children = (
-				83CB977A6FEB73E264E54712563B4123 /* QinzTool */,
-			);
-			name = "Development Pods";
-			sourceTree = "<group>";
-		};
-		3B152D499EC1F49DFED0378F1264098E /* Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				7D101441D7C93BCEFDC0C9D20D1FF818 /* Info.plist */,
-				CF3953516FAC478C726CCFFE069D0565 /* QinzTool.modulemap */,
-				3CD32F53E2480B1AC569F4E89B905B5D /* QinzTool.xcconfig */,
-				A877C4C60FC2B67B5C42B4D71ED7691D /* QinzTool-dummy.m */,
-				276874AF53FEDF33270A896FA5AC67F9 /* QinzTool-prefix.pch */,
-				BA70E2D560192475156ECB157036CB3C /* QinzTool-umbrella.h */,
-				DB34B0FD9840C0050BB91D5FA9DF9A78 /* ResourceBundle-QinzTool-Info.plist */,
-			);
-			name = "Support Files";
-			path = "Example/Pods/Target Support Files/QinzTool";
-			sourceTree = "<group>";
-		};
-		44D5347904CF754D6785B84253F2574A /* iOS */ = {
-			isa = PBXGroup;
-			children = (
-				D6DFF15000AFE2A371BF499E7AFDA808 /* Foundation.framework */,
-			);
-			name = iOS;
-			sourceTree = "<group>";
-		};
-		6C1128160842D9C436F07F87D7D4EA92 /* FJFloatingView */ = {
-			isa = PBXGroup;
-			children = (
-				917F44E8DAFFAC3F8BD8E7AA3D6AE45E /* FJFloatingView.h */,
-				E10329F24AF6BABEF8FFC6DC9EA81B43 /* FJFloatingView.m */,
+				CFC7D062AA6D226990F8A4E589CAEB08 /* FJFloatingView.h */,
+				FB37F2A23E349BCEB6D2CB6F88F617CE /* FJFloatingView.m */,
 			);
 			name = FJFloatingView;
 			path = QinzTool/Classes/FJFloatingView;
 			sourceTree = "<group>";
 		};
-		7DB346D0F39D3F0E887471402A8071AB = {
+		1B0809DD2CE00220D5F675D457CD9392 /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
-				34FCA12B84EC1A28AE770C97FC15C9B3 /* Development Pods */,
-				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
-				C0A7AE4C3E5213BEECDCD1A8566504F5 /* Products */,
-				F95BF1A2467FE883D67B8F4A855F0510 /* Targets Support Files */,
+				3DC4573F560D3EBDBA1317429236CF9E /* QinzTool.modulemap */,
+				D52546C646105133346B288729BC36A0 /* QinzTool.xcconfig */,
+				240BE6797CD97CF05B2E4E1B6B5F3C75 /* QinzTool-dummy.m */,
+				C5D1FDF1CF8613BEFCCB535098E7ABEF /* QinzTool-Info.plist */,
+				F45C8D64C47C0950D3D8A619EE3ED274 /* QinzTool-prefix.pch */,
+				11E30EECB4C7AA672CEAE220ABEF3D19 /* QinzTool-umbrella.h */,
+				5B5DF5E54EF3DCAE7ADDCBBB4D6B4F19 /* ResourceBundle-QinzTool-QinzTool-Info.plist */,
 			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/QinzTool";
 			sourceTree = "<group>";
 		};
-		83CB977A6FEB73E264E54712563B4123 /* QinzTool */ = {
+		3721A6AAEC3BAFACC8B0A6013F1CBD56 /* Targets Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				4F27B0272F9227E109B882FECB0277A0 /* ReplaceMe.m */,
-				6C1128160842D9C436F07F87D7D4EA92 /* FJFloatingView */,
-				06A90710AAD0DBA774380DC7350319DF /* Pod */,
-				875743C1413685C3EC8A3AC63B59945A /* Resources */,
-				3B152D499EC1F49DFED0378F1264098E /* Support Files */,
+				3B676516343EA9423EF9B1EDB6B5EE29 /* Pods-QinzTool_Example */,
+				E6CF9AC62E6333B49812DC2D58E79A83 /* Pods-QinzTool_Tests */,
 			);
-			name = QinzTool;
-			path = ../..;
+			name = "Targets Support Files";
 			sourceTree = "<group>";
 		};
-		875743C1413685C3EC8A3AC63B59945A /* Resources */ = {
+		3B676516343EA9423EF9B1EDB6B5EE29 /* Pods-QinzTool_Example */ = {
 			isa = PBXGroup;
 			children = (
-				6A8F496A4EC138F145AAEE64928FC3E4 /* zb_bg.png */,
-			);
-			name = Resources;
-			sourceTree = "<group>";
-		};
-		A3C51B5E0569A6493CD0A961F23236FD /* Pods-QinzTool_Example */ = {
-			isa = PBXGroup;
-			children = (
-				88F8AB88F24553DD1E8E27A9C7D8D93E /* Info.plist */,
-				CF8403A822F036DCF76A140AC4FB6E95 /* Pods-QinzTool_Example.modulemap */,
-				7F7DF60F03B8F4B3A0391C7CA23A438F /* Pods-QinzTool_Example-acknowledgements.markdown */,
-				1DEBAAE889CF0DD48CABE845770332D4 /* Pods-QinzTool_Example-acknowledgements.plist */,
-				0492AD4196F1C96D8A058C03D3D1A756 /* Pods-QinzTool_Example-dummy.m */,
-				09717CE89660B859998C8528B8E1C809 /* Pods-QinzTool_Example-frameworks.sh */,
-				C585811AA2BEBB92F516A0992AE619FF /* Pods-QinzTool_Example-resources.sh */,
-				09994F6F6C931532B5EBC9F24ED00ECD /* Pods-QinzTool_Example-umbrella.h */,
-				3C1907E3CE67FA3F6B58E6BE80A3AE7C /* Pods-QinzTool_Example.debug.xcconfig */,
-				033F3F3E794D983AA708A7BE8D0D3FAD /* Pods-QinzTool_Example.release.xcconfig */,
+				A5035F281B41C4EA98E8AE118FC3E649 /* Pods-QinzTool_Example.modulemap */,
+				76A67558F4E60141D919106337F97169 /* Pods-QinzTool_Example-acknowledgements.markdown */,
+				CAF471A07C5144806878178252DD819A /* Pods-QinzTool_Example-acknowledgements.plist */,
+				71A876308960982C0C374CFA6C80A2D6 /* Pods-QinzTool_Example-dummy.m */,
+				CE1F5EBCA6353639F962325D37B73BCA /* Pods-QinzTool_Example-frameworks.sh */,
+				A3244542363994B3D0E78B8B77A799AA /* Pods-QinzTool_Example-Info.plist */,
+				0EDB9F5C488E9D41D3FF436665F0F604 /* Pods-QinzTool_Example-umbrella.h */,
+				4250981E4A72FC609498021429F17BAC /* Pods-QinzTool_Example.debug.xcconfig */,
+				C5B39856C03D84F9EB605EC123343F65 /* Pods-QinzTool_Example.release.xcconfig */,
 			);
 			name = "Pods-QinzTool_Example";
 			path = "Target Support Files/Pods-QinzTool_Example";
 			sourceTree = "<group>";
 		};
-		BA6E734BC246B40B2D75036FE5D14AAB /* Pods-QinzTool_Tests */ = {
+		5020B56961EE9200E947084AEDA2C9F9 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				C1C8BDDA31E1A6D2C60586FD34E57729 /* Info.plist */,
-				DB1A389CCE6B91838CF3ED4C273C1F9D /* Pods-QinzTool_Tests.modulemap */,
-				60DD9E06C6BFBF3DAEC2A62B10019810 /* Pods-QinzTool_Tests-acknowledgements.markdown */,
-				D2B2AAA58FFE2B8F33FC4562C7C96463 /* Pods-QinzTool_Tests-acknowledgements.plist */,
-				79D41D6D9D07AE26D3766A1DC1210B4C /* Pods-QinzTool_Tests-dummy.m */,
-				6F84D61197EB9C196BF5BE844264F640 /* Pods-QinzTool_Tests-frameworks.sh */,
-				EC7E0F721CCE0FCE0DB5BA9D5CAB999A /* Pods-QinzTool_Tests-resources.sh */,
-				481A2056F1F11D2E73BFA3CCC2865F71 /* Pods-QinzTool_Tests-umbrella.h */,
-				BD82DF4D5984407C5BAAA6109CDE4852 /* Pods-QinzTool_Tests.debug.xcconfig */,
-				907F5F2346382A5051788D16AE49FBC8 /* Pods-QinzTool_Tests.release.xcconfig */,
+				3B2BEAA7424747FF09AFAC073DC2E5EE /* Pods_QinzTool_Example.framework */,
+				4861F019E9D9182185FD11930B83806B /* Pods_QinzTool_Tests.framework */,
+				AC35F59368B61A0666D38B7551E4E930 /* QinzTool.bundle */,
+				698F0EFEB9E096C18AF7486A66772D2C /* QinzTool.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		6EBF99BDB8B4AAD68799919F079D0BED /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				9DA8211239B340CB10B7D15244A7CFDA /* QinzTool */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		9DA8211239B340CB10B7D15244A7CFDA /* QinzTool */ = {
+			isa = PBXGroup;
+			children = (
+				B22B468F3CF71BD6A91BBD58CCF2F38F /* ReplaceMe.m */,
+				0B4C3B124A7A291564608FB4E3CBEF8C /* FJFloatingView */,
+				020ED4D44910475F453D30D100D462F5 /* Pod */,
+				D381258AE3B2B2DF94F432BF9426E55D /* Resources */,
+				1B0809DD2CE00220D5F675D457CD9392 /* Support Files */,
+			);
+			name = QinzTool;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		C0834CEBB1379A84116EF29F93051C60 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				6EBF99BDB8B4AAD68799919F079D0BED /* Development Pods */,
+				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
+				5020B56961EE9200E947084AEDA2C9F9 /* Products */,
+				3721A6AAEC3BAFACC8B0A6013F1CBD56 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C0834CEBB1379A84116EF29F93051C60 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D381258AE3B2B2DF94F432BF9426E55D /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				A00C0B2EC2A4553F9F4401FDBAE761A2 /* zb_bg.png */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		E6CF9AC62E6333B49812DC2D58E79A83 /* Pods-QinzTool_Tests */ = {
+			isa = PBXGroup;
+			children = (
+				1A12A204A849AB0E7A610A3C9BE8A8F7 /* Pods-QinzTool_Tests.modulemap */,
+				E09AD755ACC0BF439D75AB9CFE0DD864 /* Pods-QinzTool_Tests-acknowledgements.markdown */,
+				E5E34EF7AED9122D1856B6381538C67C /* Pods-QinzTool_Tests-acknowledgements.plist */,
+				8C60D07501B3F22BC6FF41A02885815F /* Pods-QinzTool_Tests-dummy.m */,
+				A3676678F1051D9A3E2013349684CC5D /* Pods-QinzTool_Tests-Info.plist */,
+				24CC45696D74AE5176A6D20B01B605EA /* Pods-QinzTool_Tests-umbrella.h */,
+				3A94AC897402D56DA7A119B795AE302B /* Pods-QinzTool_Tests.debug.xcconfig */,
+				70D9E0D1AFBD57FBCA49CCC8CB59CEF9 /* Pods-QinzTool_Tests.release.xcconfig */,
 			);
 			name = "Pods-QinzTool_Tests";
 			path = "Target Support Files/Pods-QinzTool_Tests";
 			sourceTree = "<group>";
 		};
-		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
-			isa = PBXGroup;
-			children = (
-				44D5347904CF754D6785B84253F2574A /* iOS */,
-			);
-			name = Frameworks;
-			sourceTree = "<group>";
-		};
-		C0A7AE4C3E5213BEECDCD1A8566504F5 /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				0952F4F1807627FC17FF08AA523393C4 /* Pods_QinzTool_Example.framework */,
-				27E5545A2EB4838C4DD88AEE027D8C02 /* Pods_QinzTool_Tests.framework */,
-				46398BC7882639B87ECBBF4EA00C594B /* QinzTool.bundle */,
-				E2A73879661136AD7E2FC330927CBF27 /* QinzTool.framework */,
-			);
-			name = Products;
-			sourceTree = "<group>";
-		};
-		F95BF1A2467FE883D67B8F4A855F0510 /* Targets Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				A3C51B5E0569A6493CD0A961F23236FD /* Pods-QinzTool_Example */,
-				BA6E734BC246B40B2D75036FE5D14AAB /* Pods-QinzTool_Tests */,
-			);
-			name = "Targets Support Files";
-			sourceTree = "<group>";
-		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		2AADFC94BA06D036E8CF673ACF59FA6C /* Headers */ = {
+		8D93391F6AFA0724E9917FAED4AB1EAE /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				EE4A546778DDBF0754A454E88A391101 /* Pods-QinzTool_Example-umbrella.h in Headers */,
+				769C3DEA502CFB2FA3EAA80BBC097086 /* FJFloatingView.h in Headers */,
+				EEB877B2644A7D2CECD8C72EB3C7FFF5 /* QinzTool-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		4734F571D4EB6F0CEC8FF1E4172EAEA8 /* Headers */ = {
+		B8891399D57EB60FF14D8B3AF65577BD /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				69D748E494309B9663EECFA9E4D2559E /* Pods-QinzTool_Tests-umbrella.h in Headers */,
+				ABFD288F86FE91160459D1D82ECEE5A8 /* Pods-QinzTool_Tests-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		F159A7F598CFE1C20DD662776385DEE5 /* Headers */ = {
+		E9BACB8A0CCD7E6ED420933E4D894E3E /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A9FDE01CF68CB67E9150CD815400C23E /* FJFloatingView.h in Headers */,
-				3D65258B962D3076EBF654895B7BACA2 /* QinzTool-umbrella.h in Headers */,
+				6AAC6EE46AAED46E91661120F1787C57 /* Pods-QinzTool_Example-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
-		0368529C2FAD6BF5EEE825D36AC2310C /* QinzTool-QinzTool */ = {
+		1323B0BFCF8CF7D8BD553D113A404386 /* Pods-QinzTool_Tests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = C7F91B754FB2C34BFE4A342F4CC0126B /* Build configuration list for PBXNativeTarget "QinzTool-QinzTool" */;
+			buildConfigurationList = 1B998C44D9D21C96984A729E3C85FDF9 /* Build configuration list for PBXNativeTarget "Pods-QinzTool_Tests" */;
 			buildPhases = (
-				E4910E4D764607B28F01C17841B4E3D9 /* Sources */,
-				83E739B1773AD05255C3B1FDB925E951 /* Frameworks */,
-				CF62FD7B8BD33DA76D2957D342B55F9C /* Resources */,
+				B8891399D57EB60FF14D8B3AF65577BD /* Headers */,
+				7F0134F5A06FA7C5E41637B5E3D295BB /* Sources */,
+				671C19CB0480B55AE3522FCB28DF8C78 /* Frameworks */,
+				B4A14397C071FC3AF6E708DBF5828B3B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4D8B745E4FCE174292FF49FF85347C10 /* PBXTargetDependency */,
+			);
+			name = "Pods-QinzTool_Tests";
+			productName = "Pods-QinzTool_Tests";
+			productReference = 4861F019E9D9182185FD11930B83806B /* Pods_QinzTool_Tests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		209104EFCF29EFB366013CBDBFE61890 /* QinzTool-QinzTool */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B0D3298F8E11147CD4EB6457B6D4471F /* Build configuration list for PBXNativeTarget "QinzTool-QinzTool" */;
+			buildPhases = (
+				1E55EC7ADC9C8C31F35F4A048758B5C8 /* Sources */,
+				D1F60C8129200AC15B2E3D26EA8C48E7 /* Frameworks */,
+				F76A0F689B4976852CF2154CFBDFECB9 /* Resources */,
 			);
 			buildRules = (
 			);
@@ -317,228 +330,170 @@
 			);
 			name = "QinzTool-QinzTool";
 			productName = "QinzTool-QinzTool";
-			productReference = 46398BC7882639B87ECBBF4EA00C594B /* QinzTool.bundle */;
+			productReference = AC35F59368B61A0666D38B7551E4E930 /* QinzTool.bundle */;
 			productType = "com.apple.product-type.bundle";
 		};
-		1E45B1949F263417B137069ED61340AE /* Pods-QinzTool_Example */ = {
+		B8580FC9149802D8AD992DD4A79DBDF0 /* QinzTool */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 44FD55296B0CA7EFA524D5FF32B5DEF8 /* Build configuration list for PBXNativeTarget "Pods-QinzTool_Example" */;
+			buildConfigurationList = 569D9B47DA7F9224BFB8C0DECC5DA173 /* Build configuration list for PBXNativeTarget "QinzTool" */;
 			buildPhases = (
-				2AADFC94BA06D036E8CF673ACF59FA6C /* Headers */,
-				AC5B60BEA4C3A9D95607CE2C1CAA05F1 /* Sources */,
-				E6B47F41394AA0E27A7BB012439BF8CC /* Frameworks */,
-				57AD4236B0AA4E41506CE2A41D8B3819 /* Resources */,
+				8D93391F6AFA0724E9917FAED4AB1EAE /* Headers */,
+				873B8DA7338E6842CB44F54B1AD3EE2B /* Sources */,
+				F832201A8055A39EDDBB8C838CA7D005 /* Frameworks */,
+				3F1289752FDB32BAF3CFB339E1A2DF80 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				1203847652F5356706AD33FB6C3F7CFC /* PBXTargetDependency */,
-			);
-			name = "Pods-QinzTool_Example";
-			productName = "Pods-QinzTool_Example";
-			productReference = 0952F4F1807627FC17FF08AA523393C4 /* Pods_QinzTool_Example.framework */;
-			productType = "com.apple.product-type.framework";
-		};
-		A4CC85DCA5DB054CC6B19BA2EF9290DF /* QinzTool */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = F440F50559186E1B1A7623CD946B997A /* Build configuration list for PBXNativeTarget "QinzTool" */;
-			buildPhases = (
-				F159A7F598CFE1C20DD662776385DEE5 /* Headers */,
-				C679CB65378DF457EA65BD1B3AFDD960 /* Sources */,
-				66557C2DDDABCBA34217E2018741984D /* Frameworks */,
-				B292F254FB0CF1D3FD3564B8FD19DB3E /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				797AFBDE4973DC4992949B085CF12A1C /* PBXTargetDependency */,
+				4F6FBFFE4DF5ABCE2247202F50E27347 /* PBXTargetDependency */,
 			);
 			name = QinzTool;
 			productName = QinzTool;
-			productReference = E2A73879661136AD7E2FC330927CBF27 /* QinzTool.framework */;
+			productReference = 698F0EFEB9E096C18AF7486A66772D2C /* QinzTool.framework */;
 			productType = "com.apple.product-type.framework";
 		};
-		CC5118657761BA7F9352DB68C9A459CA /* Pods-QinzTool_Tests */ = {
+		F51E166E7E8F5725F95AC46676D230A3 /* Pods-QinzTool_Example */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 1E59187D8A7B374CA92A37087BE73369 /* Build configuration list for PBXNativeTarget "Pods-QinzTool_Tests" */;
+			buildConfigurationList = 4F294336978EDD3BBC46334500659B78 /* Build configuration list for PBXNativeTarget "Pods-QinzTool_Example" */;
 			buildPhases = (
-				4734F571D4EB6F0CEC8FF1E4172EAEA8 /* Headers */,
-				549A3FF4675CFD1ABC2BD9FB42B084CC /* Sources */,
-				E3D55D4709577B87A4BB6A20CB7759CB /* Frameworks */,
-				BB74672815FEC2A2186AF92EE4DDDB43 /* Resources */,
+				E9BACB8A0CCD7E6ED420933E4D894E3E /* Headers */,
+				0BD5DA3C19A4BBDD89AF4A2965DB1472 /* Sources */,
+				1CC2FCA6AABEFFEF90CBEA483889F949 /* Frameworks */,
+				4DFB0AA780741291D3FDBB5876FD9B72 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				372D04E4A303A743783271D763EC99D3 /* PBXTargetDependency */,
+				1AAB1431F800E0FC0F2E32CF523F750E /* PBXTargetDependency */,
 			);
-			name = "Pods-QinzTool_Tests";
-			productName = "Pods-QinzTool_Tests";
-			productReference = 27E5545A2EB4838C4DD88AEE027D8C02 /* Pods_QinzTool_Tests.framework */;
+			name = "Pods-QinzTool_Example";
+			productName = "Pods-QinzTool_Example";
+			productReference = 3B2BEAA7424747FF09AFAC073DC2E5EE /* Pods_QinzTool_Example.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastSwiftUpdateCheck = 0930;
-				LastUpgradeCheck = 0930;
-				TargetAttributes = {
-					0368529C2FAD6BF5EEE825D36AC2310C = {
-						DevelopmentTeam = 3LZSCAW46M;
-					};
-				};
+				LastSwiftUpdateCheck = 1020;
+				LastUpgradeCheck = 1020;
 			};
-			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
 			compatibilityVersion = "Xcode 3.2";
-			developmentRegion = English;
+			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
-				English,
 				en,
 			);
-			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
-			productRefGroup = C0A7AE4C3E5213BEECDCD1A8566504F5 /* Products */;
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = 5020B56961EE9200E947084AEDA2C9F9 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				1E45B1949F263417B137069ED61340AE /* Pods-QinzTool_Example */,
-				CC5118657761BA7F9352DB68C9A459CA /* Pods-QinzTool_Tests */,
-				A4CC85DCA5DB054CC6B19BA2EF9290DF /* QinzTool */,
-				0368529C2FAD6BF5EEE825D36AC2310C /* QinzTool-QinzTool */,
+				F51E166E7E8F5725F95AC46676D230A3 /* Pods-QinzTool_Example */,
+				1323B0BFCF8CF7D8BD553D113A404386 /* Pods-QinzTool_Tests */,
+				B8580FC9149802D8AD992DD4A79DBDF0 /* QinzTool */,
+				209104EFCF29EFB366013CBDBFE61890 /* QinzTool-QinzTool */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		57AD4236B0AA4E41506CE2A41D8B3819 /* Resources */ = {
+		3F1289752FDB32BAF3CFB339E1A2DF80 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				25F6B26AFC272A7C5F6009EBFFA98D55 /* QinzTool.bundle in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4DFB0AA780741291D3FDBB5876FD9B72 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		B292F254FB0CF1D3FD3564B8FD19DB3E /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				F5F1B81837593A3923837D86958E5467 /* QinzTool.bundle in Resources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		BB74672815FEC2A2186AF92EE4DDDB43 /* Resources */ = {
+		B4A14397C071FC3AF6E708DBF5828B3B /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		CF62FD7B8BD33DA76D2957D342B55F9C /* Resources */ = {
+		F76A0F689B4976852CF2154CFBDFECB9 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				36A0F7E1DBF6B334862C19CF860A0068 /* zb_bg.png in Resources */,
+				CCDF343CC0110D2EEF24DAD52FD844B6 /* zb_bg.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		549A3FF4675CFD1ABC2BD9FB42B084CC /* Sources */ = {
+		0BD5DA3C19A4BBDD89AF4A2965DB1472 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D175603DDEBB9CBC9EFC564FE3DDABDE /* Pods-QinzTool_Tests-dummy.m in Sources */,
+				7E1C884C584681B169E1710FEE8618DC /* Pods-QinzTool_Example-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		AC5B60BEA4C3A9D95607CE2C1CAA05F1 /* Sources */ = {
+		1E55EC7ADC9C8C31F35F4A048758B5C8 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				6AC20EB20C6830228C2C118E4C2B3F11 /* Pods-QinzTool_Example-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		C679CB65378DF457EA65BD1B3AFDD960 /* Sources */ = {
+		7F0134F5A06FA7C5E41637B5E3D295BB /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D362FD7D9CB21C88C758E2EDC907C9D7 /* FJFloatingView.m in Sources */,
-				41C2FF47BF54F7542102ECD3533E8B24 /* QinzTool-dummy.m in Sources */,
-				D81C00FC449904387E646FE358E627CF /* ReplaceMe.m in Sources */,
+				1B8E3D2D5FEE090F207D14A93DDE74B6 /* Pods-QinzTool_Tests-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		E4910E4D764607B28F01C17841B4E3D9 /* Sources */ = {
+		873B8DA7338E6842CB44F54B1AD3EE2B /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BF21746C724D9D6A2EFE07FA297C11BE /* FJFloatingView.m in Sources */,
+				24A1E0C5CFD433681F712047359056C3 /* QinzTool-dummy.m in Sources */,
+				0DF5C19409B5C503408D9150D35AADC0 /* ReplaceMe.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		1203847652F5356706AD33FB6C3F7CFC /* PBXTargetDependency */ = {
+		1AAB1431F800E0FC0F2E32CF523F750E /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = QinzTool;
-			target = A4CC85DCA5DB054CC6B19BA2EF9290DF /* QinzTool */;
-			targetProxy = 720EE4DEE7E5C7C73784818965FDE637 /* PBXContainerItemProxy */;
+			target = B8580FC9149802D8AD992DD4A79DBDF0 /* QinzTool */;
+			targetProxy = DB144EE0BCC025886DA9CDEABE5112B5 /* PBXContainerItemProxy */;
 		};
-		372D04E4A303A743783271D763EC99D3 /* PBXTargetDependency */ = {
+		4D8B745E4FCE174292FF49FF85347C10 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = "Pods-QinzTool_Example";
-			target = 1E45B1949F263417B137069ED61340AE /* Pods-QinzTool_Example */;
-			targetProxy = 1DB56384F6729ED2776FC586755C0DB1 /* PBXContainerItemProxy */;
+			target = F51E166E7E8F5725F95AC46676D230A3 /* Pods-QinzTool_Example */;
+			targetProxy = B7BBFEBF55F6C40707056161BB75C0CB /* PBXContainerItemProxy */;
 		};
-		797AFBDE4973DC4992949B085CF12A1C /* PBXTargetDependency */ = {
+		4F6FBFFE4DF5ABCE2247202F50E27347 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = "QinzTool-QinzTool";
-			target = 0368529C2FAD6BF5EEE825D36AC2310C /* QinzTool-QinzTool */;
-			targetProxy = D32B04447D1E8194FDB50054C52DD9F3 /* PBXContainerItemProxy */;
+			target = 209104EFCF29EFB366013CBDBFE61890 /* QinzTool-QinzTool */;
+			targetProxy = 1A5D26EDE8ED2514454225BF7D5E9D70 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		00A7E02936ECB0D62D575E346F1AB7DE /* Debug */ = {
+		4B7624B664E8CC11024DB597D313E89C /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 3C1907E3CE67FA3F6B58E6BE80A3AE7C /* Pods-QinzTool_Example.debug.xcconfig */;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-QinzTool_Example/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-QinzTool_Example/Pods-QinzTool_Example.modulemap";
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
-		2264D08CC036667F321F114643A4DC93 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 3CD32F53E2480B1AC569F4E89B905B5D /* QinzTool.xcconfig */;
+			baseConfigurationReference = D52546C646105133346B288729BC36A0 /* QinzTool.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -550,54 +505,7 @@
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				GCC_PREFIX_HEADER = "Target Support Files/QinzTool/QinzTool-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/QinzTool/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/QinzTool/QinzTool.modulemap";
-				PRODUCT_MODULE_NAME = QinzTool;
-				PRODUCT_NAME = QinzTool;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
-		50E2F81802277DB5696F5DF75A4B1DF2 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 3CD32F53E2480B1AC569F4E89B905B5D /* QinzTool.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "iPhone Developer";
-				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/QinzTool";
-				DEVELOPMENT_TEAM = 3LZSCAW46M;
-				INFOPLIST_FILE = "Target Support Files/QinzTool/ResourceBundle-QinzTool-Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				PRODUCT_NAME = QinzTool;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				WRAPPER_EXTENSION = bundle;
-			};
-			name = Release;
-		};
-		7370EF3CB1E7AD81CF0C75AB97C778DA /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 3CD32F53E2480B1AC569F4E89B905B5D /* QinzTool.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/QinzTool/QinzTool-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/QinzTool/Info.plist";
+				INFOPLIST_FILE = "Target Support Files/QinzTool/QinzTool-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
@@ -614,7 +522,7 @@
 			};
 			name = Release;
 		};
-		85B95B1234E227C814CCC2C7902D0916 /* Release */ = {
+		4BE66A09A74FD25164AAB3C2645B9B93 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -646,8 +554,6 @@
 				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				CODE_SIGNING_ALLOWED = NO;
-				CODE_SIGNING_REQUIRED = NO;
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				ENABLE_NS_ASSERTIONS = NO;
@@ -669,13 +575,76 @@
 				MTL_FAST_MATH = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				STRIP_INSTALLED_PRODUCT = NO;
-				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
-				SWIFT_VERSION = 4.2;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
 				SYMROOT = "${SRCROOT}/../build";
 			};
 			name = Release;
 		};
-		A73625DEBD810B78234FA1958C191C8C /* Debug */ = {
+		4DE05113AED68FDA26BDF21BC0F5EA3A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D52546C646105133346B288729BC36A0 /* QinzTool.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/QinzTool/QinzTool-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/QinzTool/QinzTool-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/QinzTool/QinzTool.modulemap";
+				PRODUCT_MODULE_NAME = QinzTool;
+				PRODUCT_NAME = QinzTool;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		66438C3EBE4E1F1E6BF074EBA2F4222D /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D52546C646105133346B288729BC36A0 /* QinzTool.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/QinzTool";
+				INFOPLIST_FILE = "Target Support Files/QinzTool/ResourceBundle-QinzTool-QinzTool-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				PRODUCT_NAME = QinzTool;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Release;
+		};
+		76CB27DF172D708D35BD8905A9D278CD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D52546C646105133346B288729BC36A0 /* QinzTool.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/QinzTool";
+				INFOPLIST_FILE = "Target Support Files/QinzTool/ResourceBundle-QinzTool-QinzTool-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				PRODUCT_NAME = QinzTool;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Debug;
+		};
+		7EF7227D9B20A1D549000096ACCB23D7 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -707,8 +676,6 @@
 				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				CODE_SIGNING_ALLOWED = NO;
-				CODE_SIGNING_REQUIRED = NO;
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = dwarf;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
@@ -736,14 +703,14 @@
 				STRIP_INSTALLED_PRODUCT = NO;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
-				SWIFT_VERSION = 4.2;
+				SWIFT_VERSION = 5.0;
 				SYMROOT = "${SRCROOT}/../build";
 			};
 			name = Debug;
 		};
-		B76CA799D91026D1E87DAB1C58773023 /* Release */ = {
+		94456AD71023BB45F173A829B8EAED22 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 033F3F3E794D983AA708A7BE8D0D3FAD /* Pods-QinzTool_Example.release.xcconfig */;
+			baseConfigurationReference = C5B39856C03D84F9EB605EC123343F65 /* Pods-QinzTool_Example.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
 				CODE_SIGN_IDENTITY = "";
@@ -755,7 +722,7 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-QinzTool_Example/Info.plist";
+				INFOPLIST_FILE = "Target Support Files/Pods-QinzTool_Example/Pods-QinzTool_Example-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
@@ -775,9 +742,9 @@
 			};
 			name = Release;
 		};
-		BEFF3CFF91CAA7C5CB6875D0CE1523E3 /* Release */ = {
+		A46BDE9A58F409F70FAB50549F5587F1 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 907F5F2346382A5051788D16AE49FBC8 /* Pods-QinzTool_Tests.release.xcconfig */;
+			baseConfigurationReference = 70D9E0D1AFBD57FBCA49CCC8CB59CEF9 /* Pods-QinzTool_Tests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
 				CODE_SIGN_IDENTITY = "";
@@ -789,7 +756,7 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-QinzTool_Tests/Info.plist";
+				INFOPLIST_FILE = "Target Support Files/Pods-QinzTool_Tests/Pods-QinzTool_Tests-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
@@ -809,9 +776,9 @@
 			};
 			name = Release;
 		};
-		C05923A6D4295C2F50FB790841827719 /* Debug */ = {
+		E844F930F546259DCD48E94FF9B3ACB0 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = BD82DF4D5984407C5BAAA6109CDE4852 /* Pods-QinzTool_Tests.debug.xcconfig */;
+			baseConfigurationReference = 3A94AC897402D56DA7A119B795AE302B /* Pods-QinzTool_Tests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
 				CODE_SIGN_IDENTITY = "";
@@ -823,7 +790,7 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-QinzTool_Tests/Info.plist";
+				INFOPLIST_FILE = "Target Support Files/Pods-QinzTool_Tests/Pods-QinzTool_Tests-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
@@ -842,72 +809,88 @@
 			};
 			name = Debug;
 		};
-		E8A6EFA0504CB864650D385A4E03F6EF /* Debug */ = {
+		F9E2346B06CD9346712027E2F8F19D11 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 3CD32F53E2480B1AC569F4E89B905B5D /* QinzTool.xcconfig */;
+			baseConfigurationReference = 4250981E4A72FC609498021429F17BAC /* Pods-QinzTool_Example.debug.xcconfig */;
 			buildSettings = {
-				CODE_SIGN_IDENTITY = "iPhone Developer";
-				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/QinzTool";
-				DEVELOPMENT_TEAM = 3LZSCAW46M;
-				INFOPLIST_FILE = "Target Support Files/QinzTool/ResourceBundle-QinzTool-Info.plist";
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-QinzTool_Example/Pods-QinzTool_Example-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				PRODUCT_NAME = QinzTool;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-QinzTool_Example/Pods-QinzTool_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				WRAPPER_EXTENSION = bundle;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
 			};
 			name = Debug;
 		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		1E59187D8A7B374CA92A37087BE73369 /* Build configuration list for PBXNativeTarget "Pods-QinzTool_Tests" */ = {
+		1B998C44D9D21C96984A729E3C85FDF9 /* Build configuration list for PBXNativeTarget "Pods-QinzTool_Tests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				C05923A6D4295C2F50FB790841827719 /* Debug */,
-				BEFF3CFF91CAA7C5CB6875D0CE1523E3 /* Release */,
+				E844F930F546259DCD48E94FF9B3ACB0 /* Debug */,
+				A46BDE9A58F409F70FAB50549F5587F1 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				A73625DEBD810B78234FA1958C191C8C /* Debug */,
-				85B95B1234E227C814CCC2C7902D0916 /* Release */,
+				7EF7227D9B20A1D549000096ACCB23D7 /* Debug */,
+				4BE66A09A74FD25164AAB3C2645B9B93 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		44FD55296B0CA7EFA524D5FF32B5DEF8 /* Build configuration list for PBXNativeTarget "Pods-QinzTool_Example" */ = {
+		4F294336978EDD3BBC46334500659B78 /* Build configuration list for PBXNativeTarget "Pods-QinzTool_Example" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				00A7E02936ECB0D62D575E346F1AB7DE /* Debug */,
-				B76CA799D91026D1E87DAB1C58773023 /* Release */,
+				F9E2346B06CD9346712027E2F8F19D11 /* Debug */,
+				94456AD71023BB45F173A829B8EAED22 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		C7F91B754FB2C34BFE4A342F4CC0126B /* Build configuration list for PBXNativeTarget "QinzTool-QinzTool" */ = {
+		569D9B47DA7F9224BFB8C0DECC5DA173 /* Build configuration list for PBXNativeTarget "QinzTool" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				E8A6EFA0504CB864650D385A4E03F6EF /* Debug */,
-				50E2F81802277DB5696F5DF75A4B1DF2 /* Release */,
+				4DE05113AED68FDA26BDF21BC0F5EA3A /* Debug */,
+				4B7624B664E8CC11024DB597D313E89C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		F440F50559186E1B1A7623CD946B997A /* Build configuration list for PBXNativeTarget "QinzTool" */ = {
+		B0D3298F8E11147CD4EB6457B6D4471F /* Build configuration list for PBXNativeTarget "QinzTool-QinzTool" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				2264D08CC036667F321F114643A4DC93 /* Debug */,
-				7370EF3CB1E7AD81CF0C75AB97C778DA /* Release */,
+				76CB27DF172D708D35BD8905A9D278CD /* Debug */,
+				66438C3EBE4E1F1E6BF074EBA2F4222D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 }
